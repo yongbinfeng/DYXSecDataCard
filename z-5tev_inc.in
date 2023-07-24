@@ -151,7 +151,7 @@ vegasncallsVJREAL = 500000000 # only for real 10d vegas integration
 vegasncallsVJVIRT = 5000000  # only for virt 8d vegas integration
 
 # cubature settings
-relaccuracy = 1e-4 # target relative uncertainty of each term
+relaccuracy = 1e-3 # target relative uncertainty of each term
 absaccuracy = 0    # target absolute uncertainty of each term in fb
 
 # Lepton cuts
