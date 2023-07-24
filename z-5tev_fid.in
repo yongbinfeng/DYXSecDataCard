@@ -42,9 +42,9 @@ fmufac = 1     # Functional form of the factorisation scale
 fmures = 1     # Functional form of the resummation scale (forms >= 2 are equivalent to 1)
 
 # QCD scale settings
-kmuren = 0.5         # Scale factor for the renormalisation scale
-kmufac = 0.5         # Scale factor for the factorisation scale
-kmures = 0.5         # Scale factor for the resummation scale
+kmuren = 1.0         # Scale factor for the renormalisation scale
+kmufac = 1.0         # Scale factor for the factorisation scale
+kmures = 1.0         # Scale factor for the resummation scale
 
 # EW scheme
 #0: Input: alpha(mZ), zmass, xw;     Derived: wmass, Gf
@@ -147,8 +147,8 @@ ncycle = 15         # Number of pi-cycles in the contour
 vegasncallsBORN   = 1000     # only for res 4d vegas integration
 vegasncallsCT     = 10000   # only for 6d and 8d vegas integration of the counter term
 vegasncallsVJLO   = 100000   # only for lo 7d vegas integration
-vegasncallsVJREAL = 500000000 # only for real 10d vegas integration
-vegasncallsVJVIRT = 5000000  # only for virt 8d vegas integration
+vegasncallsVJREAL = 10000000000 # only for real 10d vegas integration
+vegasncallsVJVIRT = 1000000000  # only for virt 8d vegas integration
 
 # cubature settings
 relaccuracy = 1e-4 # target relative uncertainty of each term
